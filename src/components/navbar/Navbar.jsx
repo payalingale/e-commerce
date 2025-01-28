@@ -4,8 +4,12 @@ import search from '../../assets/search icon.png'
 import user from '../../assets/profile-icon.png'
 import cartBox from '../../assets/Vector.png'
 import './Navbar.css'
+import { Link } from 'react-router'
+
+
 
 const Navbar = () => {
+   
   return (
     <div className='navbar-container'>
         <div className="right-side">
@@ -13,7 +17,7 @@ const Navbar = () => {
         </div>
         <div className="center">
             <ul className='menu-items'>
-                <li className='item'>HOME</li>
+                <Link to='/'><li className='item'>HOME</li></Link>
                 <li className='item'>COLLECTION</li>
                 <li className='item'>ABOUT</li>
                 <li className='item'>CONTACT</li>
@@ -21,10 +25,11 @@ const Navbar = () => {
         </div>
         <div className="left-side">
             <img src={search} alt="" />
-            <img src={user} alt="" />
+            <Link to='/login'><img src={user} alt="" /></Link>
+            
             <img src={cartBox} alt="" />
         </div>
-        {/* <hr /> */}
+        <hr className='navbar-hr'/>
     </div>
   )
 }

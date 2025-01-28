@@ -32,10 +32,11 @@ width: 15%;
     display: flex;
     gap: 10px;
 }
-.navbar-container::after{
+
+.navbar-hr{
     content: '';
     position: absolute;
-    top: 12%;
+    top: 20%;
     width: 80%;
     height: 1px; /* suit your need */
     background: #ADADAD; /* suit your need */
