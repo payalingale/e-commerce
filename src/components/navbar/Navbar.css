@@ -1,0 +1,49 @@
+.navbar-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15rem;
+    width: 100vw;
+    height: 100px;
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    
+}
+.right-side{
+width: 15%;
+
+}
+.center{
+    width: 20%;
+    
+}
+.left-side{
+    width: 10%;
+}
+
+.center > ul{
+    display: flex;
+    justify-content: space-between;
+}
+.center > ul >li{
+    transition: 2s;
+}
+.left-side{
+    display: flex;
+    gap: 10px;
+}
+.navbar-container::after{
+    content: '';
+    position: absolute;
+    top: 12%;
+    width: 80%;
+    height: 1px; /* suit your need */
+    background: #ADADAD; /* suit your need */
+    /* top: 100%; */
+    left: 10;
+}
+.center > ul >li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    margin-right: 5px;
+}

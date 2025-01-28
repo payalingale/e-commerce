@@ -1,0 +1,84 @@
+.footer-container {
+    position: relative;
+    width: 80%;
+    height: 200px;
+    justify-content: space-between;
+    top: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 50px;
+    font-family: "Outfit", serif;
+}
+
+.upper-footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    justify-content: space-between;
+}
+/* .footer-container::after{
+    content: 'Copyright 2024 © GreatStack.dev - All Right Reserved.';
+    position: absolute;
+    top: 90%;
+    left: 50%;
+} */
+
+.left-side-footer {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.left-side-footer img {
+    height: 30px;
+    width: 100px;
+}
+
+.left-side-footer>p {
+    font-family: "Outfit", serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #595959;
+
+}
+
+.center-footer,.right-side-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.center-footer>h3 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #5A5A5A;
+    text-decoration-skip-ink: none;
+}
+
+.footer-items {
+    color: #5A5A5A;
+    font-family: Outfit;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+.lower-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-left: 10px;
+}
+.lower-footer > hr{
+    width: 100%;
+    height: 1px;
+}
