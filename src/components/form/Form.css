@@ -81,3 +81,14 @@ form>input {
 .forgot-pwd:hover,.create-account-btn:hover{
     cursor: pointer;
 }
+.error-message{
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    background-color: rgb(216, 128, 128);
+}
+input::placeholder{
+    padding-left: 10px;
+}
