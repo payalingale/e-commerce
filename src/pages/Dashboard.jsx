@@ -3,15 +3,15 @@ import Navbar from "../components/navbar/Navbar";
 import Subscription from "../components/subscription/Subscription";
 import Footer from "../components/footer/footer";
 
-const Home = () => {
+const Dashboard = () => {
   return (
     <>
       <Navbar />
-      <h1>Its a home page</h1>
+      <h1>Its a dashboard page</h1>
       <Subscription />
       <Footer />
     </>
   );
 };
 
-export default Home;
+export default Dashboard;

@@ -16,6 +16,7 @@ width: 15%;
 .center{
     width: 20%;
     
+    
 }
 .left-side{
     width: 10%;
@@ -23,7 +24,8 @@ width: 15%;
 
 .center > ul{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap: 10px;
 }
 .center > ul >li{
     transition: 2s;
