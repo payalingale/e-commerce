@@ -1,10 +1,11 @@
 .navbar-container{
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 15rem;
     width: 100vw;
-    height: 100px;
+    height: 150px;
     font-family: "Poppins", serif;
     font-weight: 300;
     
@@ -38,7 +39,7 @@ width: 15%;
 .navbar-hr{
     content: '';
     position: absolute;
-    top: 20%;
+    top: 100px;
     width: 80%;
     height: 1px; /* suit your need */
     background: #ADADAD; /* suit your need */

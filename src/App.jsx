@@ -11,6 +11,7 @@ import SignUp from "./components/form/SignUp";
 import LoginPage from "./pages/LoginPage";
 import SignUpPage from "./pages/SignUpPage";
 import Dashboard from "./pages/Dashboard";
+import CollectionPage from "./pages/CollectionPage";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Route path='/dashboard' element={<Dashboard/>}/>
       <Route path='/login' element={<LoginPage/>}/>
       <Route path='/signup' element={<SignUpPage/>}/>
+      <Route path="/collection" element={<CollectionPage/>}/> 
     </Routes>
     </BrowserRouter>
   );
